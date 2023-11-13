@@ -1,0 +1,139 @@
+
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+    .ticket-container{
+        padding: 10px;
+    }
+    .right-column p,
+    .left-column p{
+        font-size: 14px;
+    }
+    .ticket-qr-code p{
+        font-size: 14px;
+    }
+    .ticket-qr-code p em{
+        font-size: 11px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ticket-container{
+        padding: 10px 30px;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .ticket-container{
+        padding: 10px 50px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+.ticket-container{
+    padding: 10px 150px;   
+}
+.ticket-qr-code p em{
+    font-size: 14px;
+}
+
+  }
+header img{
+    width: 100%;
+    height: auto;
+}
+
+
+.ticket-qr-code p em{
+    color: #000;
+text-align: center;
+font-family: Be Vietnam Pro;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.ticket-qr-code p{
+    align-items: center;
+    margin: 0;
+    color: #000;
+text-align: center;
+font-family: Be Vietnam Pro;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.ticket-qr-code {
+    text-align: center;
+}
+
+.ticket-qr-code img {
+    max-width: 20%; 
+    align-items: center;
+}
+.ticket-qr-code p {
+    line-height: 1.2;
+}
+
+.ticket-information h4{
+    color: #000;
+font-family: Be Vietnam Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+
+.ticket-information-detail {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr; 
+    grid-column-gap: 10px; 
+
+}
+
+.right-column{
+    text-align: right;
+}
+
+.right-column p,
+.left-column p{
+    margin: 5px 0;
+    color: #000;
+font-family: Be Vietnam Pro;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.line{
+    width: 100%;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #afafaf;
+    margin-bottom: 10px;
+}
+.ticket-information-demo{
+    margin-top: 10px;
+}
+
+.ticket-total-right{
+    color: #000;
+font-family: Be Vietnam Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ticket-total-left{
+    color: #000;
+text-align: right;
+font-family: Be Vietnam Pro;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ticket-total-right p,
+.ticket-total-left p {
+    margin: 20px 0;
+}
